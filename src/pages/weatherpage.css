@@ -1,0 +1,12 @@
+.weatherPage-loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.select-cont {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+}
