@@ -1,5 +1,5 @@
 import bg5 from "./assets/bg5.jpg";
-import bg6 from "./assets/bg6.png";
+import bg6 from "./assets/bg6.jpg";
 import bg7 from "./assets/bg7.jpg";
 import { Routes, Route } from "react-router-dom";
 import "./App.css";
