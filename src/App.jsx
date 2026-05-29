@@ -1,3 +1,6 @@
+import bg5 from "./assets/bg5.jpg";
+import bg6 from "./assets/bg6.png";
+import bg7 from "./assets/bg7.jpg";
 import { Routes, Route } from "react-router-dom";
 import "./App.css";
 import Homepage from "./pages/homepage";
@@ -80,7 +83,7 @@ function App() {
           element={
             <div
               style={{
-                backgroundImage: "url('../src/assets/bg5.jpg')",
+                backgroundImage: `url(${bg5})`,
                 backgroundSize: "cover",
                 backgroundPosition: "center",
                 minHeight: "100vh",
@@ -101,7 +104,7 @@ function App() {
           element={
             <div
               style={{
-                backgroundImage: "url('../src/assets/bg6.png')",
+                bbackgroundImage: `url(${bg6})`,
                 backgroundSize: "cover",
                 backgroundPosition: "center",
                 minHeight: "100vh",
@@ -121,7 +124,7 @@ function App() {
           element={
             <div
               style={{
-                backgroundImage: "url('../src/assets/bg7.jpg')",
+                backgroundImage: `url(${bg7})`,
                 backgroundSize: "cover",
                 backgroundPosition: "center",
                 minHeight: "100vh",
