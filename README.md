@@ -15,22 +15,6 @@ FlyWise is a multi-page React web application that helps travelers make informed
 ⚡ Smooth async data fetching with independent loading states
 🛡️ Graceful error handling — one API failing doesn't break the other
 
-🏗️ Architecture
-User selects a country
-        │
-        ▼
-useEffect triggers on country change
-        │
-        ├──► ExchangeRate-API (currency data)
-        │
-        └──► OpenWeatherMap API (weather data)
-        │
-        ▼
-Independent loading & error states per section
-        │
-        ▼
-React renders live data with Material UI components
-
 📂 Project Structure
 
 flywise/
